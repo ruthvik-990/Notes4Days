@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Zone</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#first").click(function(){
+            $("#Basics").slideToggle(1000);
+        });
+        $("#second").click(function(){
+            $("#ImageTransforms").slideToggle(1000);
+        });
+    });
+</script>
+</head>
+<body class="bg-dark" >
+    <div class="container-fluid bg-primary" style="height:25vh;">
+        <p class="display-4 pt-4 "><b>Notes4days</b></p>
+    </div>
+    
+        <button class="btn btn-block mt-3 btn-success sticky-top"><a href="DIP.html">Return </a></button>
+    <pre>
+        <center>
+        <button id="first" class="btn"><h6 style="color:blue;">Basics</h6><img class="mb-3" src="arrow.png" alt="booklogo"></button>
+            <div id="Basics" style="display:none;" >
+            <a href="4-1 files/DIP/UNIT-1/Basics/Class-2_Introduction2.pptx"><h6>Introduction</h6><img class="mb-3" src="booklogo.png" alt="booklogo"></a>
+            <a href="4-1 files/DIP/UNIT-1/Basics/Class-3_Digitization.pptx"><h6>Digitization</h6><img class="mb-3"  src="booklogo.png" alt="booklogo"></a>
+            <a href="4-1 files/DIP/UNIT-1/Basics/Class-4_Pixel-relations1.ppt"><h6>Pixel-relations1</h6><img class="mb-3"  src="booklogo.png" alt="booklogo"></a>
+            <a href="4-1 files/DIP/UNIT-1/Basics/Class-4_PixelRwelations1.pptx"><h6>Pixel-relations1 ppt</h6><img class="mb-3"  src="booklogo.png" alt="booklogo"></a>
+            <a href="4-1 files/DIP/UNIT-1/Basics/Class-5_PIXEL-ALU-Operations.odp"><h6>ALU-Operations</h6><img class="mb-3"  src="booklogo.png" alt="booklogo"></a>
+            <a href="4-1 files/DIP/UNIT-1/Basics/Notes.pdf"><h6>Notes</h6><img class="mb-3"  src="booklogo.png" alt="booklogo"></a>
+        </div>
+        <button id="second" class="btn"  style="color:blue;" ><h6>ImageTransforms</h6><img class="mb-3" src="arrow.png" alt="booklogo"></button>
+            <div id="ImageTransforms"  style="display:none;">
+            <a href="4-1 files/DIP/UNIT-1/ImageTransforms/Img_transforms1.pdf"><h6>ImageTransforms</h6><img class="mb-3" src="booklogo.png" alt="booklogo"></a>
+            <a href="4-1 files/DIP/UNIT-1/ImageTransforms/Class-6_IP-15_LEC-05_Image Transforms.pptx"><h6>ImageTransforms ppt</h6><img class="mb-3"  src="booklogo.png" alt="booklogo"></a>
+        </div>
+        </center>
+    </pre>
+
+</body>
+</html>
